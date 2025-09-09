@@ -1,0 +1,66 @@
+@import '../../../styles.scss';
+
+.portfolio-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  padding-top: 16px;
+}
+
+.portfolio-header__nav {
+  background-color: $background;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(8, 217, 214, 0.08);
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+}
+
+.portfolio-header__section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-header__center {
+  justify-content: center;
+}
+
+.portfolio-header__end {
+  justify-content: flex-end;
+}
+
+.portfolio-header__brand {
+  color: $secondary;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.portfolio-header__menu-btn {
+  background-color: $primary;
+  border: none;
+}
+
+.portfolio-header__action-btn {
+  background-color: $accent;
+  border: none;
+}
+
+.portfolio-header__dropdown {
+  background-color: $secondary;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(8, 217, 214, 0.12);
+  margin-top: 0.75rem;
+  width: 13rem;
+  padding: 0.5rem;
+}
+
+.portfolio-header__dropdown a {
+  color: $background !important;
+}

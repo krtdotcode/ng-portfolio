@@ -28,3 +28,36 @@ $background: #EAEAEA;
   font-weight: 400;
   font-style: italic;
 }
+
+.dark-theme {
+  background-color: #252A34;
+  color: #EAEAEA;
+
+  .portfolio-header__nav {
+    background-color: #252A34;
+    box-shadow: 0 4px 16px rgba(34, 34, 34, 0.16);
+  }
+
+  .portfolio-header__brand {
+    color: #EAEAEA;
+  }
+
+  .portfolio-header__menu-btn {
+    background-color: #08D9D6;
+  }
+
+  .portfolio-header__action-btn {
+    background-color: #EAEAEA;
+    svg {
+      fill: #252A34 !important;
+    }
+  }
+
+  .portfolio-header__dropdown {
+    background-color: #1f1f1f;
+  }
+
+  .portfolio-header__dropdown a {
+    color: #EAEAEA !important;
+  }
+}
