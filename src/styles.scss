@@ -2,6 +2,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+// Color palette from https://colorhunt.co/palette/08d9d6252a34ff2e63eaeaea
+$primary: #08D9D6;
+$secondary: #252A34;
+$accent: #FF2E63;
+$background: #EAEAEA;
+
 .figtree-regular {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
