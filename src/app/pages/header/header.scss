@@ -13,13 +13,11 @@
 
 .portfolio-header__nav {
   background-color: $background;
-  border-radius: 1rem;
   box-shadow: 0 4px 16px rgba(8, 217, 214, 0.08);
   max-width: 900px;
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 0.5rem 1.5rem;
 }
 
 .portfolio-header__section {
@@ -38,7 +36,6 @@
 
 .portfolio-header__brand {
   color: $secondary;
-  font-size: 1.5rem;
   text-decoration: none;
 }
 
@@ -56,9 +53,7 @@
   background-color: $secondary;
   border-radius: 0.75rem;
   box-shadow: 0 2px 8px rgba(8, 217, 214, 0.12);
-  margin-top: 0.75rem;
   width: 13rem;
-  padding: 0.5rem;
 }
 
 .portfolio-header__dropdown a {
